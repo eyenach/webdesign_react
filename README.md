@@ -1,4 +1,10 @@
-## Step 1 :: Start npm
+## Step 1 :: Starting with an existing React application
+```
+$npm install
+```
+To download the dependencies
+
+## Step 2 :: Start npm
 ```
 $npm start
 ```
