@@ -1,22 +1,27 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
+import loginApp from './loginApp'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
     render() {
         return (
-            <div className="top">
-                <header className="white padding shadow">
+            <Router>
+                <Route path="/login" component={loginApp}/>
+                <div className="header padding white">
+
                     <p className="bar-item">RECIPE</p>
-                    <p className="right bar-item">เข้าสู่ระบบ</p>
-                    <p className="right bar-item">สมัครสมาชิก</p>
-                    <header className="box">
-                        <header className="container-1">
-                            <span className="icon"><i className="fa fa-search"></i></span>
-                            <input type="search" id="search" placeholder="Search..."/>
-                        </header>
-                    </header>
-                </header>
-            </div>
+
+                    <div className="bar-item">
+                        <input type="search" id="search" placeholder="Search..."/>
+                    </div>
+
+                    <Link to="/login" className="navbar-item">Login</Link>
+                    {/*<a className="right bar-item" href="login.html">Login</a>*/}
+                    <p className="right bar-item">Register</p>
+
+                </div>
+            </Router>
         );
     }
 }

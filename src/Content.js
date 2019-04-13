@@ -7,7 +7,8 @@ class Content extends Component {
         return (
             <div className="padding">
                 <img src={pizza} className="display center-fit" />
-                <h3 className="white">ประเภทอาหาร</h3>
+
+                <h3 className="white">Category</h3>
             </div>
         );
     }
