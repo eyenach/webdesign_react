@@ -6,6 +6,7 @@ class App extends Component {
     render() {
         return (
             <div>
+                /* Header */
                 <header className="top">
                     <Header/>
                 </header>

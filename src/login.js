@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <loginApp/>,
-    document.getElementById('root')
+    document.getElementById('login')
 );
 
 serviceWorker.unregister();
