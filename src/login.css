@@ -2,7 +2,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    height: 100vh;
+    height: auto;
 }
 
 a {
@@ -26,6 +26,7 @@ h2 {
 /* STRUCTURE */
 
 .wrapper {
+    margin-top: 10em;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -61,11 +62,11 @@ h2 {
 
 /* TABS */
 
-h2.inactive {
+a.inactive {
     color: #cccccc;
 }
 
-h2.active {
+a.active {
     color: #0d0d0d;
     border-bottom: 2px solid #5fbae9;
 }
@@ -117,7 +118,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     font-size: 16px;
     margin: 5px;
-    width: 85%;
+    width: 80%;
     border: 2px solid #f6f6f6;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
