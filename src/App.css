@@ -66,3 +66,23 @@ input#search {
     max-height: 25em;
     margin: auto;
 }
+
+/*Category*/
+
+.column {
+    float: left;
+    width: 22%;
+    margin: 1.5%;
+    background: #dce8f1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
