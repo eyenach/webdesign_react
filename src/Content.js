@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import './menu.css'
 import pizza from './pizza.jpg';
 
 class Content extends Component {
@@ -12,14 +13,21 @@ class Content extends Component {
                     <h3 className="white">Category</h3>
                 </div>
 
-                <div className="container">
-                    <div className="row">
-                        <div className="column">1</div>
-                        <div className="column">2</div>
-                        <div className="column">3</div>
-                        <div className="column">4</div>
+                <section className="recipe_4col lists">
+                    <div className="wrapper-category">
+                        <article>
+                            <figure>
+                                <a href="" title="">
+                                    <img width="294" height="196"
+                                         src="https://img.lezizyemeklerim.com/tarif/5578/limonata-tarifi_b1dc05859381615b8854ff374da0fcc9/343x229.jpg"/>
+                                </a>
+                            </figure>
+                            <div className="post_details">
+                                <h3><a href="" title="">Category</a></h3>
+                            </div>
+                        </article>
                     </div>
-                </div>
+                </section>
             </div>
         );
     }
