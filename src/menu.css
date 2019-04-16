@@ -99,7 +99,8 @@ h6, .h6 {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+    /*position: relative;*/
+    position: unset;
 }
 
 .recipe_4col {
@@ -119,7 +120,8 @@ article {
     width: 23%;
     margin: 0 1% 20px;
     background: #fff;
-    display: flex;
+    /*display: flex;*/
+    display: inline-flex;
     flex-flow: column;
 }
 @media (max-width: 61.25em) {
@@ -142,7 +144,8 @@ article {
 }
 
 figure a {
-    position: relative;
+    /*position: relative;*/
+    position: unset;
     display: block;
 }
 figure img {

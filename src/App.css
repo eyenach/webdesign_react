@@ -15,6 +15,11 @@
     padding: 8px 16px;
 }
 
+.site-content {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .bar-item {
     padding: 8px;
     float: left;

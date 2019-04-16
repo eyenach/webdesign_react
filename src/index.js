@@ -16,6 +16,7 @@ ReactDOM.render(
         <Route path="/login" component={loginApp} />
         <Route path="/register" component={registerApp} />
         <Route path="/menu" component={menuApp} />
+        <Route path="/type/menu" component={menuApp}/>
     </Router>, document.getElementById('root')
 );
 
