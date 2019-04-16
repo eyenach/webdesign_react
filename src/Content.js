@@ -9,8 +9,10 @@ class Content extends Component {
             <div className="site-content">
                 <div>
                     <img src={pizza} className="display center-fit"/>
+                </div>
 
-                    <h3 className="white">Category</h3>
+                <div className="space-line">
+                    <h3 className="white padding">Category</h3>
                 </div>
 
                 <section className="recipe_4col lists">

@@ -5,11 +5,8 @@ class Header extends Component {
     render() {
         return (
             <div className="header padding white">
-                <p className="bar-item">RECIPE</p>
-                <div className="bar-item">
-                    <input type="search" id="search" placeholder="Search..."/>
-                </div>
-                <a className="right bar-item" href="/home">Home</a>
+                <a className="bar-item" href="/home">RECIPE</a>
+                <input className="bar-item" type="search" id="search" placeholder="Search..."/>
                 <a className="right bar-item" href="/login">Login</a>
                 <a className="right bar-item" href="/register">Register</a>
             </div>
