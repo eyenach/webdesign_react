@@ -1,5 +1,5 @@
 ## Step 1 :: Starting with an existing React application
-check : react-router="^3.2.0" (package.json)
+check : react-router="^3.2.1" (package.json)
 ```
 $npm install
 ```
