@@ -1,22 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
 
-import App from './App';
-import loginApp from './loginApp';
-import registerApp from './registerApp';
-import menuApp from './menuApp';
+import HomeApp from './home/HomeApp';
+import LoginApp from './login/LoginApp';
+import RegisterApp from './register/RegisterApp';
+import MenuApp from './menu/MenuApp';
 
 import {Router, Route, browserHistory} from 'react-router';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <Router history={browserHistory}>
-        <Route path="/home" component={App}/>
-        <Route path="/login" component={loginApp} />
-        <Route path="/register" component={registerApp} />
-        <Route path="/menu" component={menuApp} />
-        <Route path="/type/menu" component={menuApp}/>
+        <Route path="/" component={HomeApp}/>
+        <Route path="/home" component={HomeApp}/>
+        <Route path="/login" component={LoginApp} />
+        <Route path="/register" component={RegisterApp} />
+        <Route path="/menu" component={MenuApp} />
+        <Route path="/type/menu" component={MenuApp}/>
     </Router>, document.getElementById('root')
 );
 
