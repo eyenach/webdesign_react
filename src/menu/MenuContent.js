@@ -24,7 +24,7 @@ class MenuContent extends Component {
                                     </div>
                                 </div>
                                 <h3>
-                                    <a href="" title="">Menu name</a>
+                                    <a href="/menu/detail" title="">Menu name</a>
                                 </h3>
                                 <div className="other_details">
                                     <div className="view">

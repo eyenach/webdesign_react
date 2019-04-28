@@ -92,7 +92,7 @@ h6, .h6 {
     margin-top: 8em;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+    /*position: relative;*/
 }
 
 .wrapper-category {
