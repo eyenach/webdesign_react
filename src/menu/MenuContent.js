@@ -5,7 +5,7 @@ class MenuContent extends Component {
     render() {
         return (
             <div>
-                <section className="recipe_4col lists">
+                <section className="recipe_4col">
                     <div className="wrapper-menu">
                         <article>
                             <figure>
