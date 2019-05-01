@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import Header from '../Header';
+import HeaderGuest from '../HeaderGuest';
 import DetailContent from './DetailContent';
 
 class DetailApp extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                <HeaderGuest/>
 
                 <DetailContent/>
 

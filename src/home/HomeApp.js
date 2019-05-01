@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Header from '../Header';
+import HeaderGuest from '../HeaderGuest';
 import Content from '../Content';
 
 class HomeApp extends Component {
@@ -7,12 +7,12 @@ class HomeApp extends Component {
         return (
             <div>
                 <header className="top">
-                    <Header/>
+                    <HeaderGuest/>
                 </header>
 
-                <header>
+                <body>
                     <Content/>
-                </header>
+                </body>
             </div>
         );
     }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Header from '../Header';
+import HeaderGuest from '../HeaderGuest';
 import '../css/login.css';
 
 class LoginApp extends Component {
@@ -7,7 +7,7 @@ class LoginApp extends Component {
         return (
             <div>
                 <header>
-                    <Header/>
+                    <HeaderGuest/>
                 </header>
 
                 <div className="wrapper fadeInDown">

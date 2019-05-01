@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Header from '../Header';
+import HeaderGuest from '../HeaderGuest';
 import MenuContent from './MenuContent';
 
 class MenuApp extends Component {
@@ -7,7 +7,7 @@ class MenuApp extends Component {
         return (
             <div>
                 <header>
-                    <Header/>
+                    <HeaderGuest/>
                 </header>
 
                 <MenuContent/>

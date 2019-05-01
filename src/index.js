@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/index.css';
 
 import HomeApp from './home/HomeApp';
 import LoginApp from './login/LoginApp';

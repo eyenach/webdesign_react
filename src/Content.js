@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './App.css';
-import './menu.css'
+import './css/home.css';
+import './css/menu.css'
 import pizza from './pizza.jpg';
 
 class Content extends Component {
