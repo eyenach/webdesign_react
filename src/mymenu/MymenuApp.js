@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import HeaderMember from '../HeaderMember';
 import '../css/mymenu.css'
 import 'font-awesome/css/font-awesome.min.css';
-import pizza from "../pizza.jpg";
 
 class MymenuApp extends Component {
     render() {
