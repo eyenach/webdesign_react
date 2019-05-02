@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import 'font-awesome/css/font-awesome.min.css';
+import '../css/managemenu.css';
 
 class ManageMenuApp extends Component {
     constructor(props) {
@@ -625,6 +626,5 @@ class ErrorModal extends Component {
         )
     }
 }
-
 
 export default ManageMenuApp;
