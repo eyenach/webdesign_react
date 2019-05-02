@@ -8,12 +8,12 @@ class DetailContent extends Component{
             <div className="site-content">
                 <div className="wrapper-detail">
                     <div className="cell-row white">
-                        <img src={pizza} className="display center-fit"/>
                         <div className="topic cell">
-                            <h3>Hello</h3>
+                            <h3>Tom Yum Kung</h3>
                         </div>
                         <div className="topic cell">
-                            <img width="-webkit-fill-available" src={pizza}/>
+                            <img width="-webkit-fill-available"
+                                 src="http://www.thaifoodheritage.com/uploads/recipe_list/gallery/e3de5-jpg.jpeg"/>
                         </div>
                     </div>
 

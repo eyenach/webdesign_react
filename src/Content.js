@@ -8,11 +8,12 @@ class Content extends Component {
         return (
             <div className="site-content">
                 <div>
-                    <img src={pizza} className="display center-fit"/>
+                    <img src="https://s3.amazonaws.com/artprofmedia/2018/09/26211621/Clar_NYTCooking_WIP2-1366x800.jpg"
+                         className="display center-fit"/>
                 </div>
 
                 <div className="space-line">
-                    <h3 className="white padding">Category</h3>
+                    <h4 className="white padding">Category</h4>
                 </div>
 
                 <div className="row">
