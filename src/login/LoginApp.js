@@ -12,8 +12,8 @@ class LoginApp extends Component {
 
                 <div className="wrapper fadeInDown">
                     <div id="formContent">
-                        <h2><a className="active" href="/login"> Login </a></h2>
-                        <h2><a className="inactive underlineHover" href="/register"> Register </a></h2>
+                        <h2 className="login-regis"><a className="active" href="/login"> Login </a></h2>
+                        <h2 className="login-regis"><a className="inactive underlineHover" href="/register"> Register </a></h2>
                         <form>
                             <input type="text" id="login" className="fadeIn second" name="login" placeholder="email"/>
                             <input type="password" id="password" className="fadeIn third" name="login"

@@ -19,13 +19,12 @@ class HeaderMember extends Component {
                                             <label htmlFor="drop1"><a href="">Profile<i
                                                 className="material-icons">keyboard_arrow_down</i></a></label>
                                             <div className="drop-menu">
-                                                <a href="">My Menu</a>
-                                                <a href="">Add Menu</a>
+                                                <a href="/mymenu">My Menu</a>
+                                                <a href="/addmenu">Add Menu</a>
                                                 <a href="">Logout</a>
                                             </div>
                                         </div>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>

@@ -14,7 +14,7 @@ class MymenuApp extends Component {
                 <div className="site-content">
                     <div className="wrapper-detail black">
                         <h3 className="align-center">My Menu
-                            <a className="menu-right" href="">+ add menu</a>
+                            <a className="menu-right" href="/addmenu">+ add menu</a>
                         </h3>
                         <div className="row">
                             <a className="column white" href="/menu/detail">
